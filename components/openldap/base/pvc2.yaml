@@ -5,7 +5,8 @@ metadata:
   labels:
     app: openldap
 spec:
-  storageClassName: ocs-storagecluster-cephfs
+  # storageClassName: ocs-storagecluster-cephfs
+  storageClassName: lvms-vg1
   accessModes:
   - ReadWriteOnce
   resources:

@@ -4,4 +4,4 @@ metadata:
   name: ivia-config-pvc
 spec:
   # storageClassName: ocs-external-storagecluster-cephfs
-  storageClassName: lvm
+  storageClassName: lvms-vg1
