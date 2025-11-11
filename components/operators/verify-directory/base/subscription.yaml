@@ -6,7 +6,8 @@ spec:
   channel: stable
   installPlanApproval: Automatic
   name: ibm-security-verify-directory-operator
-  source: certified-operators
+  # source: certified-operators
+  source: operatorhubio-catalog
   sourceNamespace: openshift-marketplace
   config:
     resources:
